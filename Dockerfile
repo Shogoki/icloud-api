@@ -1,7 +1,7 @@
 FROM denoland/deno:1.26.0
 
 WORKDIR /app
-
+ENV PORT=80
 # Prefer not to run as root.
 #USER deno
 ADD . /app

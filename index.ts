@@ -3,7 +3,7 @@ import { Application, Router, helpers } from 'https://deno.land/x/oak/mod.ts';
 import { Derivative, ICloudResponse, ImageResponse } from './types.ts';
 import { oakCors } from "https://deno.land/x/cors/mod.ts";
 //TODO: Read this from env
-const port = 8000;
+const port = parseInt(Deno.env.get("PORT") ?? "8000")
 const app = new Application();
 
 const router = new Router();
