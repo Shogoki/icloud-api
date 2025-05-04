@@ -2,7 +2,7 @@
 
 # Variables
 APP_NAME = icloud-album-api
-BINARY_NAME = api
+BINARY_NAME = icloud-album-api
 PORT = 8080
 
 help:
